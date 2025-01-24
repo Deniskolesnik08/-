@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин електроніки</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #555;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .product-card {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .product-card h3 {
+            text-align: center;
+        }
+        .product-card p {
+            text-align: center;
+            color: #555;
+        }
+        .product-card button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .product-card button:hover {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Магазин електроніки</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="products.html">Продукти</a>
+        <a href="contact.html">Контакти</a>
+    </nav>
+
+    <main>
+        <h2>Наші найпопулярніші продукти</h2>
+        
+        <div class="product-card">
+            <img src="phone.jpg" alt="Смартфон">
+            <h3>Смартфон X1</h3>
+            <p>Потужний смартфон з найновішими функціями.</p>
+            <button>Додати в кошик</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="laptop.jpg" alt="Ноутбук">
+            <h3>Ноутбук Y3</h3>
+            <p>Неймовірно швидкий та потужний ноутбук для роботи та розваг.</p>
+            <button>Додати в кошик</button>
+        </div>
+        
+        <div class="product-card">
+            <img src="headphones.jpg" alt="Навушники">
+            <h3>Навушники Z4</h3>
+            <p>Ідеальні навушники для музики та фільмів.</p>
+            <button>Додати в кошик</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Магазин електроніки. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
