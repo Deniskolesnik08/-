@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продукти - Магазин електроніки</title>
+    <style>
+        /* Залишаємо стилі з головної сторінки */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Магазин електроніки</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="products.html">Продукти</a>
+        <a href="contact.html">Контакти</a>
+    </nav>
+
+    <main>
+        <h2>Наші продукти</h2>
+
+        <h3>Смартфони</h3>
+        <ul>
+            <li>Смартфон X1 - 9999 грн</li>
+            <li>Смартфон A5 - 8499 грн</li>
+            <li>Смартфон P7 - 11999 грн</li>
+        </ul>
+
+        <h3>Ноутбуки</h3>
+        <ol>
+            <li>Ноутбук Y3 - 23999 грн</li>
+            <li>Ноутбук Z2 - 19999 грн</li>
+            <li>Ноутбук T5 - 17999 грн</li>
+        </ol>
+
+        <h3>Навушники</h3>
+        <table border="1">
+            <tr>
+                <th>Модель</th>
+                <th>Ціна</th>
+            </tr>
+            <tr>
+                <td>Навушники Z4</td>
+                <td>1999 грн</td>
+            </tr>
+            <tr>
+                <td>Навушники X7</td>
+                <td>2999 грн</td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Магазин електроніки. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
