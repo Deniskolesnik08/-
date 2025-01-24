@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Магазин електроніки</title>
+    <style>
+        /* Залишаємо стилі з головної сторінки */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Магазин електроніки</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="products.html">Продукти</a>
+        <a href="contact.html">Контакти</a>
+    </nav>
+
+    <main>
+        <h2>Контакти</h2>
+        <p>Зв'яжіться з нами через форму або за допомогою вказаних контактів.</p>
+
+        <form action="submit_form.php" method="post">
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Електронна пошта:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Повідомлення:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+            <button type="submit">Відправити</button>
+        </form>
+
+        <h3>Наші контакти</h3>
+        <ul>
+            <li>Телефон: +38 097 056 34 15</li>
+            <li>Email: info@electronics-shop.com</li>
+            <li>Адреса: Харків, вул. Гімназійна, 22</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Магазин електроніки. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
